@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#taskForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#taskName,
+#priorityMenu {
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#taskImportant {
+    margin-right: 5px;
+}
+
+#submitButton {
+    padding: 8px 15px;
+    color: white;
+    background-color: #e58f1e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: #1565c0;
+}
+
+#heading1 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+#taskManager {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 960px;
+    width: 100%;
+}
